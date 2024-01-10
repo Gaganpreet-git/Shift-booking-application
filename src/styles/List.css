@@ -1,0 +1,25 @@
+.list {
+    /* border-radius: .5rem; */
+    /* overflow: hidden; */
+    border: 1px solid var(--grey-4);
+    margin: 10px;
+}
+
+.list-header {
+    display: flex;
+    gap: 1.8rem;
+    background-color: var(--grey-5);
+    padding: 1.2rem;
+    align-items: center;
+
+}
+
+.list_date {
+    font-weight: 600;
+    color: var(--grey-1);
+}
+
+.list_details {
+    color: var(--grey-2);
+    font-size: 1.2rem;
+}
