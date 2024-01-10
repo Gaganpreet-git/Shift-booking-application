@@ -12,19 +12,19 @@
     cursor: pointer;
 }
 
-.button+.danger {
-    color: red;
+.button.danger {
+    color: var(--primary-red);
     border-color: red;
 }
 
 
-.button+.disabled {
+.button.disabled {
     border-color: var(--tertiary-green);
     color: var(--tertiary-green);
     cursor: not-allowed;
 }
 
-.button+.danger+.disabled {
+.button.danger.disabled {
     border-color: var(--tertiary-red);
     color: var(--tertiary-red);
     cursor: not-allowed;

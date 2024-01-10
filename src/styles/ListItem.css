@@ -1,0 +1,36 @@
+.list-item {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--grey-4);
+}
+
+
+.list-item_right-container {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    font-weight: 600;
+}
+
+.list-item_date {
+    color: var(--grey-1);
+
+}
+
+.list-item_area {
+
+    color: var(--grey-2);
+
+}
+
+.list-item_status {
+    color: var(--grey-1);
+
+
+}
+
+.list-item_status.overlapped {
+    color: var(--primary-red);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Button.css";
-const Button = ({ children, danger, disabled, onClick }) => {
+
+const Button = ({ danger, disabled, onClick, children }) => {
   const classes = `button ${danger ? "danger" : ""} ${
     disabled ? "disabled" : ""
   }`;

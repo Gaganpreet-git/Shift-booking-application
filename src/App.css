@@ -5,7 +5,12 @@
   --primary-red: #E2006A;
   --secondary-red: #FE93B3;
   --tertiary-red: #EED2DF;
-  --primary-blue: #004FB4
+  --primary-blue: #004FB4;
+  --grey-1: #4F6C92;
+  --grey-2: #A4B8D3;
+  --grey-3: #CBD2E1;
+  --grey-4: #F1F4F8;
+  --grey-5: #F7F8FB;
 }
 
 * {
@@ -20,6 +25,7 @@ html {
 
 body {
   font-family: sans-serif, serif;
+  font-size: 1.6rem;
 }
 
 .spinner-green {
