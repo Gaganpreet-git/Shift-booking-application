@@ -1,0 +1,31 @@
+.button {
+    border: 1px solid var(--secondary-green);
+    padding: 8px 24px;
+    border-radius: 50px;
+    width: fit-content;
+    color: var(--primary-green);
+    background-color: white;
+    font-weight: 600;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button+.danger {
+    color: red;
+    border-color: red;
+}
+
+
+.button+.disabled {
+    border-color: var(--tertiary-green);
+    color: var(--tertiary-green);
+    cursor: not-allowed;
+}
+
+.button+.danger+.disabled {
+    border-color: var(--tertiary-red);
+    color: var(--tertiary-red);
+    cursor: not-allowed;
+}
